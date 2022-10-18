@@ -1,0 +1,26 @@
+.logInDiv {
+    width: 100%;
+    height: 10rem;
+    background: rgb(25, 61, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logInDiv label {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.logInDiv input {
+    border-radius: 0.5rem;
+    border: none;
+    height: 1.5rem;
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+.logInDiv input:focus {
+    outline: none;
+}
